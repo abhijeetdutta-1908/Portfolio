@@ -169,7 +169,10 @@ img {
 
 /* For large devices */
 @media screen and (max-width: 992px) {
-  /* You can add layout changes here */
+  .container{
+    margin-left:var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
 }
 
 /* For medium devices */
@@ -184,5 +187,8 @@ img {
 
 /* For extra small devices */
 @media screen and (max-width: 350px) {
-  /* Super small devices (like small phones) */
+  .container{
+    margin-left:var(--mb-1);
+    margin-right: var(--mb-1);
+  }
 }
